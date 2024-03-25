@@ -2,7 +2,7 @@
 
 ### 简介
 
-electron 打包成 mac、win ，调用python 程序
+electron 打包成 mac、windowns 程序，调用 python 程序
 
 ### 技术栈
 
@@ -48,12 +48,12 @@ PyInstall start.py
 打包 应用程序
 
 ```sh
+# 下载依赖
+pnpm i
 # 打包electron - mac
 npm run build-mac
 # 打包electron - windows
 npm run build-win
-
-
 ```
 
 ### 配置
@@ -64,13 +64,11 @@ npm run build-win
 # 配置执行的主py程序
 
 MAIN_VITE_SCRIPT_MAIN = 'start'
-
 # 配置一个 密钥key
 MAIN_VITE_SCRIPT_KEY = 'xxxxx'
-
-
 # 其他自定义环境变量
-MAIN_VITE_XXXX = 'xxxxx'
+MAIN_VITE_XXXX1 = 'xxxxx'
+MAIN_VITE_XXXX2 = 'xxxxx'
 
 ```
 
@@ -78,7 +76,7 @@ MAIN_VITE_XXXX = 'xxxxx'
 ### 更新记录
 
 > 2024-03-26
-- 实现 electron打包mac、打包win；调用python 脚本
+- 实现 electron打包mac、打包 windowns ；调用python 脚本
 
 
 
@@ -86,3 +84,9 @@ MAIN_VITE_XXXX = 'xxxxx'
 
 - email：343196936@qq.com（加请备注）
 - qq：343196936（加请备注）
+
+
+
+### 参考
+
+https://github.com/electron-vite/electron-vite-vue
