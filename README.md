@@ -74,3 +74,10 @@ MAIN_VITE_XXXX = 'xxxxx'
 
 > 2024-03-26
 - 实现 electron打包mac、打包win；调用python 脚本
+
+
+
+### 交流
+
+- email：343196936@qq.com（加请备注）
+- qq：343196936（加请备注）
