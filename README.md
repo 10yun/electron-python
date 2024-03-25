@@ -37,12 +37,17 @@ electron 打包成 mac、win ，调用python 程序
 
 ### 使用
 
+打包 python
+
 ```sh
-
-# 打包 python
 PyInstall start.py
+```
 
+把打包后的内容放到 ` extend ` 目录
 
+打包 应用程序
+
+```sh
 # 打包electron - mac
 npm run build-mac
 # 打包electron - windows
